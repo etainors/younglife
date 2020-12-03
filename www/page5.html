@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+<meta charset="UTF-8">
+<title>聯絡我們</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.nav{
+  padding-left: 122;
+  padding-top: 9;
+  padding-bottom: 13;
+}
+.text{
+  display: flex;
+}
+.text-1{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-left: 118px;
+}
+.text-1-1{
+  font-size: 24px;
+  line-height: 1.29;
+  margin-top: 22px;
+}
+.text-1-2{
+  margin-top: 14px;
+  margin-left: 2px;
+}
+.text-2{
+  width: 398px;
+  height: 341px;
+  border:1px solid #979797;
+  background-color:#e5e3df;
+  margin-top: 22px;
+  margin-left: 76px;
+}
+.text-2-1{
+  padding: 1em;
+  color: gray;
+}
+.foot{
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 18px;
+  margin-bottom: 44px;
+}
+</style>
+</head>
+
+<body>
+<div id="head" class="head"></div>
+<div id="nav" class="nav" choice="4"></div>
+
+<div class="text">
+  <div class="text-1">
+    <div class="text-1-1">社團法人台灣秧扶青少年關懷協會</div>
+    <div class="text-1-2">聯絡方式：<br>電話：(02)2823-6530<br>通訊處：<br>11281台北市北投區懷德街99巷 7號7樓<br>Email：younglifetw@gmail.com</div>
+  </div>
+  <div id="map" class="text-2">
+    <div class="text-2-1">Loading...</div>
+  </div>
+</div>
+
+<div id="foot" class="foot"></div>
+
+<script src="http://maps.google.com/maps/api/js?amp;vs=3.3&sensor=false"></script>
+<script src="js/script.js"></script>
+<script>yl.map_content();</script>
+
+</body>
+</html>
